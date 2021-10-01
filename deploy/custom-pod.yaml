@@ -1,0 +1,12 @@
+apiVersion: stoetti.github.com/v1
+kind: CustomPod
+metadata:
+  name: test
+spec:
+  podTemplate:
+    spec:
+      containers:
+      - name: cont1
+        env:
+          - name: env1
+            value: value1
