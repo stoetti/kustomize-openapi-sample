@@ -40,3 +40,7 @@
       --validation=client \
       --interval=10m
     ```
+4. after the kustomization was reconciled load the final resource from the cluster
+   ```bash
+   kubectl get custompod test 
+   ```

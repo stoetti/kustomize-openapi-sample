@@ -7,7 +7,7 @@ spec:
   names:
     kind: CustomPod
     plural: custompods
-    singular: customerpod
+    singular: custompod
   scope: Namespaced
   versions:
     - name: v1
