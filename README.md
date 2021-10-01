@@ -1,0 +1,1 @@
+# kustomize-openapi-sample
