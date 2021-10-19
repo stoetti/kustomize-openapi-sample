@@ -40,7 +40,6 @@ This is a sample repo for an [issue](https://github.com/fluxcd/kustomize-control
       --source=repo \
       --path="./deploy" \
       --prune=true \
-      --validation=client \
       --interval=10m
     ```
 5. after the kustomization was reconciled load the final resource from the cluster
