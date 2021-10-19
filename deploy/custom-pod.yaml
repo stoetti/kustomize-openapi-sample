@@ -2,6 +2,7 @@ apiVersion: stoetti.github.com/v1
 kind: CustomPod
 metadata:
   name: test
+  namespace: default
 spec:
   podTemplate:
     spec:
